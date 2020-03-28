@@ -6,7 +6,6 @@ const Table = () => {
     return (
         <div className={cs.wrapper}>
             <div className={cs.text}>Table</div>
-            
         </div>
     );
 }

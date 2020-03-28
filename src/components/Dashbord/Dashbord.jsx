@@ -6,8 +6,7 @@ import Table from './Table/Table';
 
 const Dashbord = () => {
     return (
-        <div className={cs.wrapper}>
-            <div className={cs.text}>Table</div>
+        <div >
             <Linegraph />
             <Content_midle />
             <Table />
