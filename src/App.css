@@ -1,0 +1,40 @@
+
+body{
+height: 100%;  
+margin: 0px;
+}
+.wrapper{
+  display: flex; 
+  flex-direction: row;
+  background-color: #262525;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper-nav{
+  width: 71px;
+  height: 100%;
+}
+
+.wrapper-secondblok{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.wrapper-right{
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar{
+color: salmon;
+background: sienna;
+}
+
+.wrapper-right-bloks{
+display: flex;
+flex-direction: row;
+height: 100%;
+width: 100%;
+}
