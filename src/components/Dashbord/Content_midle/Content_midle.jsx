@@ -6,13 +6,13 @@ import Doubleblok from './Doubleblok/Doubleblok';
 
 
 const Content_midle = () => {
-    return (
-            <div className={cs.content_block}>
-                    <Doubleblok />
-                    <Hitstatus />
-                    <Time />
-            </div>
-    );
+        return (
+                <div className={cs.content_block}>
+                        <div className={cs.item}><Doubleblok /></div>
+                        <div className={cs.item}><Hitstatus /></div>
+                        <div className={cs.item}><Time /></div>
+                </div>
+        );
 }
 
 export default Content_midle;

@@ -3,8 +3,9 @@
     border: 1px solid #323030;
     box-sizing: border-box;
     border-radius: 15px; 
-    width: 303px;
-    height: 318px;
+    height: 100%;
+    width: 100%;
+
 }
 
 .text{
